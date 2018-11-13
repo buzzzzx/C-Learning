@@ -70,6 +70,7 @@ Sales_data &Sales_data::combine(const Sales_data &rhs) {
     return *this;
 }
 
+
 istream &read(istream &is, Sales_data &item) {
     double price;
     is >> item.bookNo >> item.units_sold >> price;
